@@ -10,3 +10,15 @@
 #dev {
     color: red;
 }
+
+#content {
+    width: 500px;
+}
+
+#footer {
+    position:relative;
+    right: 0;
+    bottom: 0;
+    padding: 0px;
+    font-weight: bold;
+}
