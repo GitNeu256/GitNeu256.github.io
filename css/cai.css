@@ -3,3 +3,54 @@
     border-radius: 25px;
     font-size: 17px;
 }
+
+.sub-menu_1 {
+    display: none;
+}
+
+.main-item_1:focus ~ .sub-menu_1,
+.main-item_1:active ~ .sub-menu_1,
+.sub-menu_1:hover {
+    display: block;
+}
+
+.sub-menu_2 {
+    display: none;
+}
+
+.main-item_2:focus ~ .sub-menu_2,
+.main-item_2:active ~ .sub-menu_2,
+.sub-menu_2:hover {
+    display: block;
+}
+.sub-menu_3 {
+    display: none;
+}
+
+.main-item_3:focus ~ .sub-menu_3,
+.main-item_3:active ~ .sub-menu_3,
+.sub-menu_3:hover {
+    display: block;
+}
+
+
+.sub-menu_4 {
+    display: none;
+}
+
+.main-item_4:focus ~ .sub-menu_4,
+.main-item_4:active ~ .sub-menu_4,
+.sub-menu_4:hover {
+    display: block;
+}
+
+
+.sub-menu_5 {
+    display: none;
+}
+
+.main-item_5:focus ~ .sub-menu_5,
+.main-item_5:active ~ .sub-menu_5,
+.sub-menu_5:hover {
+    display: block;
+}
