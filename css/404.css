@@ -1,0 +1,12 @@
+.error {
+    display: block;
+    text-align: center;
+}
+
+.button {
+    background-color: aqua;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
