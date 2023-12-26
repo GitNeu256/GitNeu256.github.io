@@ -1,3 +1,7 @@
+.main_menu {
+    text-align: center
+}
+
 .buttons {
     background-color: #156ced;
     border: none;
@@ -5,16 +9,30 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: "Roboto Mono", "Comic Sans MS";
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  
+    background: linear-gradient(to right, #000000, #156ced);
 }
-
+  
+.buttons:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.1);
+}
+  
 #dev {
     color: red;
 }
-
+  
 #content {
-    width: 500px;
+    width: 1510px;
 }
-
+  
 #footer {
     position:relative;
     right: 0;

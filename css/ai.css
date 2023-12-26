@@ -1,0 +1,28 @@
+.Prome-Ai {
+    display: none;
+}
+
+.main-item_1:focus ~ .Prome-Ai,
+.main-item_1:active ~ .Prome-Ai,
+.Prome-Ai:hover {
+    display: block;
+}
+
+.cai {
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: #156ced;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.cai:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
