@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .error-container {
     background-color: #f5f5f5;
     max-width: 500px;
@@ -34,17 +33,4 @@
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-=======
-.error {
-    display: block;
-    text-align: center;
-}
-
-.button {
-    background-color: aqua;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
->>>>>>> 9ddb49ddcfa4bc3e31703882cc54df3171515230
 }
