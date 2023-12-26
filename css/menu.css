@@ -33,6 +33,18 @@
     width: 1510px;
 }
   
+@media (min-width: 768px) {
+    #content {
+        width: 750px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    #content {
+        width: 970px;
+    }
+}
+
 #footer {
     position:relative;
     right: 0;
