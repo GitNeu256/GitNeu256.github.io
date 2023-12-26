@@ -30,20 +30,9 @@
 }
   
 #content {
-    width: 1510px;
-}
-  
-@media (min-width: 768px) {
-    #content {
-        width: 750px; 
-    }
+    width: 100%;
 }
 
-@media (min-width: 1024px) {
-    #content {
-        width: 970px;
-    }
-}
 
 #footer {
     position:relative;
