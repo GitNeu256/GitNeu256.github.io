@@ -18,6 +18,16 @@
   
     background: linear-gradient(to right, #000000, #156ced);
 }
+
+.buttons {
+    width: 24.75%
+}
+
+@media (max-width: 480px) {
+    .buttons {
+        width: 24%;
+    }
+}
   
 .buttons:hover {
     background-color: #ffffff;
@@ -32,7 +42,6 @@
 #content {
     width: 100%;
 }
-
 
 #footer {
     position:relative;
