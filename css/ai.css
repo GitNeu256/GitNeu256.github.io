@@ -28,10 +28,10 @@
 }
 
 .cai {
-    width: 15%;
+    width: 10%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 4200px) {
     .cai {
         width: 15%;
     }
