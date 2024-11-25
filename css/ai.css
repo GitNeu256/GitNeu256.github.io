@@ -11,19 +11,20 @@
 .cai {
     letter-spacing: 2px;
     border-radius: 10px;
-    background-color: #156ced;
+    background-color: #4b4b4b; /* Темно-серый, похожий на оружейную сталь */
     border: none;
-    color: white;
+    color: #dcdcdc; /* Светло-серый для текста, напоминающий металл */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-weight: bold;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4); /* Более темная тень для глубокого эффекта */
     transition: all 0.2s ease-in-out;
 }
 
 .cai:hover {
-    color: #ffffff;
+    background-color: #3a3a3a; /* Темнее при наведении для создания эффекта */
+    color: #ffffff; /* Более яркий белый текст при наведении */
     transform: scale(1.1);
 }
 
@@ -31,7 +32,63 @@
     width: 10%;
 }
 
-@media (max-width: 4200px) {
+#footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #2e2e2e;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #e0e0e0;
+    background: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 28px;
+    color: #b58900;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #b58900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 420px) {
     .cai {
         width: 15%;
     }

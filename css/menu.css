@@ -1,46 +1,49 @@
 .main_menu {
-    text-align: center
+    text-align: center;
 }
 
 .buttons {
-    background-color: #156ced;
+    background-color: #2c2f36; /* Темный серо-черный фон для кнопок */
     border: none;
     color: white;
     text-align: center;
+    padding: 15px 25px;
     text-decoration: none;
     display: inline-block;
     font-family: "Roboto Mono", "Comic Sans MS";
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Более выраженная тень */
     transition: all 0.2s ease-in-out;
-  
-    background: linear-gradient(to right, #000000, #156ced);
+    background: linear-gradient(to right, #1a1d21, #4a5b6a); /* Темно-синий градиент */
+    margin: 10px;
+    width: 23.44%;
 }
 
-.buttons {
-    width: 24.75%
+.buttons:hover {
+    background-color: #4a5b6a; /* Более светлый оттенок синего для эффекта наведения */
+    color: #e0e0e0; /* Светлый цвет текста при наведении */
+    transform: scale(1.05); /* Меньший эффект масштабирования */
 }
 
 @media (max-width: 480px) {
     .buttons {
-        width: 24%;
+        width: 24%; /* Кнопки занимают 45% экрана на устройствах с маленьким экраном */
     }
 }
-  
-.buttons:hover {
-    background-color: #ffffff;
-    color: #000000;
-    transform: scale(1.1);
-}
-  
+
 #dev {
-    color: red;
+    color: #ff3333; /* Ярко-красный для выделения */
 }
-  
+
 #content {
     width: 100%;
+    padding: 20px;
+    background-color: #1a1d21; /* Темный фон для контента */
+    color: #e0e0e0; /* Светлый цвет текста для контраста */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Тень для контента */
 }
 
 #footer {
