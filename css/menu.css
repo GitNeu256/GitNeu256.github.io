@@ -1,66 +1,59 @@
 .main_menu {
+    display: inline-table;
     text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .buttons {
-    background-color: #2c2f36; /* Темный серо-черный фон для кнопок */
+    background-color: #2c2f36;
     border: none;
     color: white;
     text-align: center;
     padding: 15px 25px;
     text-decoration: none;
-    display: inline-block;
     font-family: "Roboto Mono", "Comic Sans MS";
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Более выраженная тень */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease-in-out;
-    background: linear-gradient(to right, #1a1d21, #4a5b6a); /* Темно-синий градиент */
+    background: linear-gradient(to right, #1a1d21, #4a5b6a);
     margin: 10px;
-    width: 23.44%;
+    width: 23%;
 }
 
 .buttons:hover {
-    background-color: #4a5b6a; /* Более светлый оттенок синего для эффекта наведения */
-    color: #e0e0e0; /* Светлый цвет текста при наведении */
-    transform: scale(1.05); /* Меньший эффект масштабирования */
+    background-color: #4a5b6a;
+    color: #e0e0e0;
+    transform: scale(1.05);
 }
 
-/* Медиазапросы для экранов с высоким разрешением */
-/* Для экранов от 1080px ширины и выше */
-@media screen and (max-width: 1080px) {
-    .buttons {
-        width: 45%; /* Уменьшаем ширину кнопок, чтобы они лучше вписывались на экране */
+@media (max-width: 450px) {
+    .main_menu {
+        display: inline-block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
     }
-}
 
-/* Для экранов от 2400px высоты и выше */
-@media screen and (max-height: 2400px) {
     .buttons {
-        width: 40%; /* Регулируем ширину для высоты экрана 2400px */
-    }
-}
-
-/* Дополнительный медиазапрос для очень узких экранов */
-@media screen and (max-width: 720px) {
-    .buttons {
-        width: 100%; /* Полная ширина для мобильных устройств */
-        padding: 10px 20px; /* Уменьшаем отступы */
+        width: calc(45% - 10px);
+        margin-bottom: 10px;
     }
 }
 
 #dev {
-    color: #ff3333; /* Ярко-красный для выделения */
+    color: #ff3333; 
 }
 
 #content {
     width: 100%;
     padding: 20px;
-    background-color: #1a1d21; /* Темный фон для контента */
-    color: #e0e0e0; /* Светлый цвет текста для контраста */
+    background-color: #1a1d21;
+    color: #e0e0e0;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Тень для контента */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); 
 }
 
 #footer {
